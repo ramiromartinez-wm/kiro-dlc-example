@@ -1,6 +1,12 @@
 go 1.22
 
 use (
+	./scripts/init-dynamo
 	./scripts/init-minio
 	./scripts/seed-dynamo
+	./internal/auth
+	./internal/dynamo
+	./internal/minio
+	./internal/ollama
+	./internal/guardrail
 )
