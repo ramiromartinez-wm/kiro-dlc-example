@@ -1,0 +1,29 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'api-gateway'
+    static_configs:
+      - targets: ['api-gateway:8000']
+    metrics_path: '/metrics'
+    
+  - job_name: 'profile-service'
+    static_configs:
+      - targets: ['profile-service:8001']
+    metrics_path: '/metrics'
+    
+  - job_name: 'assistant-service'
+    static_configs:
+      - targets: ['assistant-service:8002']
+    metrics_path: '/metrics'
+    
+  - job_name: 'dispute-service'
+    static_configs:
+      - targets: ['dispute-service:8003']
+    metrics_path: '/metrics'
+    
+  - job_name: 'support-mock'
+    static_configs:
+      - targets: ['support-mock:8004']
+    metrics_path: '/metrics'

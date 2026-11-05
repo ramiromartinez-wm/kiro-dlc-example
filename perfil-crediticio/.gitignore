@@ -1,0 +1,13 @@
+# Secretos
+.env
+
+# Binarios compilados
+bin/
+
+# Binarios de test de Go
+*.test
+
+# Volúmenes Docker
+dynamo-data/
+minio-data/
+ollama-models/

@@ -1,0 +1,1197 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "Crear directorio raíz `perfil-crediticio/` con la estructura definida en `design.md`": [
+      {
+        "executionId": "7133b3c3-a6a6-49c1-8168-b313ded3481a",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899050060
+      },
+      {
+        "executionId": "7133b3c3-a6a6-49c1-8168-b313ded3481a",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899136403
+      }
+    ],
+    "Inicializar `go.work` con `go work init` (workspace multi-módulo)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238047
+      },
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899247464
+      },
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899261618
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899287364
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899310930
+      }
+    ],
+    "Crear `.env.example` con todas las variables documentadas en `design.md`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238091
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899315430
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899350111
+      }
+    ],
+    "Crear `.gitignore` (excluir `.env`, `bin/`, volúmenes Docker, `*.test`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238117
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899354594
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899375965
+      }
+    ],
+    "Definir red `creditprofile-net` (bridge)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238142
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899385705
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899449620
+      }
+    ],
+    "Servicio `dynamodb-local`: imagen `amazon/dynamodb-local`, puerto `8888:8000`, volumen `dynamo-data`, healthcheck (`curl -f http://localhost:8000`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238167
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899456274
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899481713
+      }
+    ],
+    "Servicio `minio`: imagen `minio/minio`, puertos `9000:9000` y `9001:9001`, volumen `minio-data`, healthcheck (`curl -f http://localhost:9000/minio/health/live`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238191
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899487419
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899812325
+      }
+    ],
+    "Servicio `redis`: imagen `redis:7-alpine`, puerto `6379:6379`, healthcheck (`redis-cli ping`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238219
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899816652
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899832912
+      }
+    ],
+    "Servicio `ollama`: imagen `ollama/ollama`, puerto `11434:11434`, volumen `ollama-models`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238251
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899837332
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899841942
+      }
+    ],
+    "Todos con `restart: unless-stopped` y red `creditprofile-net`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238275
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899846095
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899850743
+      }
+    ],
+    "Servicio `prometheus`: imagen `prom/prometheus`, montar `observability/prometheus.yml`, puerto `9090:9090`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238301
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899856017
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900120282
+      }
+    ],
+    "Servicio `grafana`: imagen `grafana/grafana`, puerto `3000:3000`, provisionar datasources y dashboards vía volumen": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238326
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900126040
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900132167
+      }
+    ],
+    "Servicio `loki`: imagen `grafana/loki`, montar `observability/loki-config.yml`, puerto `3100:3100`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238352
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900136944
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900141540
+      }
+    ],
+    "Servicio `promtail`: imagen `grafana/promtail`, montar socket Docker `/var/run/docker.sock` y `observability/promtail-config.yml`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238375
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900146484
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900151134
+      }
+    ],
+    "Servicio `jaeger`: imagen `jaegertracing/all-in-one`, puertos `16686:16686` (UI) y `4317:4317` (OTLP gRPC)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238395
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900155964
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900160760
+      }
+    ],
+    "Escribir `observability/prometheus.yml`: scrape de `api-gateway:8000`, `profile-service:8001`, `assistant-service:8002`, `dispute-service:8003`, `support-mock:8004`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238419
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900165471
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900170320
+      }
+    ],
+    "Escribir `observability/loki-config.yml` básico": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238442
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900174788
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900179168
+      }
+    ],
+    "Escribir `observability/promtail-config.yml`: recolectar logs de contenedores por label `com.docker.compose.service`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238467
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900183728
+      },
+      {
+        "executionId": "2ce35ca5-0815-4ce8-9426-508c82f1a659",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793900188318
+      }
+    ],
+    "`narratives/state-mapping.json`: objeto con 8 claves de estado → 4 narrative keys (R10)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238488
+      }
+    ],
+    "`narratives/narrative-1.json`: `{ \"key\": \"grow\", \"text\": \"Tenés línea y podés hacerla crecer\", \"prompt_context\": \"...\" }`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238517
+      }
+    ],
+    "`narratives/narrative-2.json`: `{ \"key\": \"unlock\", \"text\": \"Podés destrabar tu línea\", \"prompt_context\": \"...\" }`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238549
+      }
+    ],
+    "`narratives/narrative-3.json`: narrativa rechazo tipo A": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238577
+      }
+    ],
+    "`narratives/narrative-4.json`: narrativa rechazo tipo B": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238609
+      }
+    ],
+    "`actionables-context/resolution-windows.json`: mapa de tipo de accionable → días estimados de resolución (R9)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238643
+      }
+    ],
+    "`dispute-guides/bcra.json`: `{ \"steps\": [...], \"links\": [...], \"contact\": \"...\" }` (R8)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238678
+      }
+    ],
+    "`dispute-guides/bank.json` (R8)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238718
+      }
+    ],
+    "`reference-data/bcra-situations.json`: definición de situaciones 1-6 del BCRA (R6)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238750
+      }
+    ],
+    "`reference-data/glossary.json`: términos crediticios en español (R6)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238770
+      }
+    ],
+    "`guardrail-rules.json`: `{ \"patterns\": [\"garantiz\", \"seguro que\", \"vas a ser aprobad\"], \"fallback_key\": \"narrative-3\" }` (R12)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238794
+      }
+    ],
+    "Crear tabla `user_credit_profile` (PK: `user_id` String; TTL en atributo `ttl`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238818
+      }
+    ],
+    "Crear tabla `credit_decisions_history` (PK: `user_id`; SK: `decision_timestamp`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238842
+      }
+    ],
+    "Crear tabla `dispute_audit_log` (PK: `user_id`; SK: `timestamp`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238867
+      }
+    ],
+    "Usar `aws-sdk-go-v2/dynamodb` con `EndpointResolverV2` apuntando a `DYNAMODB_ENDPOINT`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238888
+      }
+    ],
+    "Manejo de error `ResourceInUseException` (tabla ya existe → skip silencioso)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238913
+      }
+    ],
+    "Servicio efímero `dynamo-init` en docker-compose: `depends_on: dynamodb-local` (condición `service_healthy`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238936
+      }
+    ],
+    "Crear bucket `credit-profile-assets` si no existe": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238961
+      }
+    ],
+    "Subir todos los archivos de `data/seed/` recursivamente con `aws-sdk-go-v2/s3`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899238986
+      }
+    ],
+    "Usar `endpoint_url = MINIO_ENDPOINT`, path-style addressing (`UsePathStyle: true`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239010
+      }
+    ],
+    "Servicio efímero `minio-init` en docker-compose: `depends_on: minio` (condición `service_healthy`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239035
+      }
+    ],
+    "Insertar usuario aprobado: `user_001` (con accionables directos e indirectos, `decision_state: \"approved\"`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239060
+      }
+    ],
+    "Insertar usuario rechazado: `user_002` (`decision_state: \"rejected\"`, 3 factores bloqueantes)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239085
+      }
+    ],
+    "Insertar usuario bloqueado: `user_003` (`decision_state: \"1P_rejected\"`) (R17)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239110
+      }
+    ],
+    "Insertar historial de decisiones para `user_001` y `user_002`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239134
+      }
+    ],
+    "Servicio efímero `dynamo-seed` en docker-compose: `depends_on: dynamo-init`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239155
+      }
+    ],
+    "Servicio efímero `ollama-pull` en docker-compose: comando `ollama pull ${OLLAMA_MODEL}`, `depends_on: ollama`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239180
+      }
+    ],
+    "Función `NewJWTMiddleware(secret string) func(http.Handler) http.Handler` compatible con `chi`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239204
+      }
+    ],
+    "Parsear y verificar token Bearer con `golang-jwt/jwt/v5`, `SigningMethodHS256`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239228
+      }
+    ],
+    "Extraer claim `sub` → comparar con `chi.URLParam(r, \"userID\")` → HTTP 403 si no coincide (R4, R6, R8)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239253
+      }
+    ],
+    "HTTP 401 si token ausente o inválido": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239278
+      }
+    ],
+    "Inyectar `userID` en `context.Context` para uso en handlers": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239303
+      }
+    ],
+    "Struct `Client` con `*dynamodb.Client` configurado vía `aws-sdk-go-v2`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239326
+      }
+    ],
+    "`GetUserProfile(ctx, userID) (*UserProfile, error)`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239351
+      }
+    ],
+    "`PutUserProfile(ctx, profile *UserProfile) error`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239377
+      }
+    ],
+    "`GetDecisionsHistory(ctx, userID) ([]Decision, error)`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239411
+      }
+    ],
+    "`LogDispute(ctx, entry *DisputeLog) error`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239436
+      }
+    ],
+    "Tipos Go para `UserProfile`, `Decision`, `DisputeLog` con tags `dynamodbav`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239461
+      }
+    ],
+    "Wrap de errores con contexto (`fmt.Errorf(\"dynamo GetUserProfile: %w\", err)`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239484
+      }
+    ],
+    "Struct `Client` con `*s3.Client` configurado con `UsePathStyle: true`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239509
+      }
+    ],
+    "`GetObjectJSON(ctx, prefix, key string, target any) error` — descarga y deserializa JSON": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239534
+      }
+    ],
+    "Cache en memoria con TTL 30 s usando `sync.Map` + timestamp (evitar llamadas repetidas a MinIO)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239558
+      }
+    ],
+    "`PutObject(ctx, key string, data []byte) error` (usado por scripts de init)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239585
+      }
+    ],
+    "Struct `Client` con `baseURL` y `model` de env vars": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239618
+      }
+    ],
+    "`Chat(ctx, messages []Message) (string, time.Duration, error)` — llama a `/api/chat` con `stream: false`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239651
+      }
+    ],
+    "`ChatStream(ctx, messages []Message) (<-chan string, error)` — llama a `/api/chat` con `stream: true`, devuelve channel de tokens": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239679
+      }
+    ],
+    "Timeout configurable (default 60 s)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239711
+      }
+    ],
+    "En `context.DeadlineExceeded` o error de conexión → retorna `ErrOllamaUnavailable`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239742
+      }
+    ],
+    "Registrar duración en Histogram Prometheus `llm_request_duration_seconds` (R18)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239774
+      }
+    ],
+    "Struct `Guardrail` con lista de `*regexp.Regexp` compilados al iniciar y mutex para refresh": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239801
+      }
+    ],
+    "`New(ctx context.Context, minioClient *minio.Client) (*Guardrail, error)` — carga `guardrail-rules.json` de MinIO": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239835
+      }
+    ],
+    "Goroutine de refresh cada 5 minutos (re-lee reglas de MinIO)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239859
+      }
+    ],
+    "`Apply(ctx context.Context, text, fallbackNarrativeKey string) (result string, blocked bool)`:": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239884
+      }
+    ],
+    "`LoadFallback(ctx, narrativeKey string) string` — lee narrativa de MinIO como texto plano": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239905
+      }
+    ],
+    "Inicializar `chi.Router`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239930
+      }
+    ],
+    "Aplicar `JWTMiddleware` globalmente (de `internal/auth`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239957
+      }
+    ],
+    "Aplicar middleware `prometheus-fastapi-instrumentator` equivalente: `github.com/prometheus/client_golang` con handler `/metrics`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899239977
+      }
+    ],
+    "Aplicar middleware OpenTelemetry: `go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240003
+      }
+    ],
+    "Rutas proxy con `httputil.ReverseProxy` o `httpx` manual:": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240027
+      }
+    ],
+    "`GET /health` sin middleware → `200 OK`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240051
+      }
+    ],
+    "`go.mod`: módulo `gateway`, dependencias `chi`, `golang-jwt/jwt/v5`, `prometheus/client_golang`, `otel`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240078
+      }
+    ],
+    "`Dockerfile` multi-stage (builder `golang:1.23-alpine` → runtime `scratch`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240107
+      }
+    ],
+    "Inicializar clientes: `dynamo.Client`, `minio.Client`, `ollama.Client`, `guardrail.Guardrail`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240155
+      }
+    ],
+    "Registrar métricas Prometheus: `profile_views_total` (Counter), `retry_date_shown_total` (Counter)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240185
+      }
+    ],
+    "`GET /profile/{userID}` — flujo completo (ver design.md):": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240211
+      }
+    ],
+    "`POST /profile/{userID}/pre-compute` — mismo flujo, responder `202 Accepted` sin body": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240236
+      }
+    ],
+    "`go.mod` + `Dockerfile`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240261
+      },
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240343
+      },
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240427
+      },
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240560
+      },
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240745
+      }
+    ],
+    "Registrar métricas: `assistant_sessions_total`, `support_deflection_total`, `support_escalation_total`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240292
+      }
+    ],
+    "`POST /ask/{userID}`:": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240326
+      }
+    ],
+    "Registrar métrica `dispute_flows_initiated_total`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240370
+      }
+    ],
+    "`POST /dispute/{userID}`:": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240409
+      }
+    ],
+    "`sync.Map` para almacenar tickets en memoria": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240454
+      }
+    ],
+    "`POST /tickets`: generar UUID (`crypto/rand`), guardar en map → `{ \"ticket_id\": \"...\", \"eta\": \"24h\" }` (R7)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240484
+      }
+    ],
+    "`GET /tickets/{id}`: lookup en map → 404 si no existe": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240511
+      }
+    ],
+    "`GET /health`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240543
+      }
+    ],
+    "Conectar a Redis con `go-redis/v9` usando `REDIS_URL`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240583
+      }
+    ],
+    "Bucle principal: `client.XRead(ctx, &redis.XReadArgs{Streams: []string{\"credit-decisions\", \"0\"}, Block: 5 * time.Second, Count: 1})`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240605
+      }
+    ],
+    "Por cada mensaje: extraer `user_id` del payload → `http.Post(\"http://profile-service:8001/profile/{userID}/pre-compute\", ...)`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240634
+      }
+    ],
+    "Retry: hasta 2 intentos con `time.Sleep(2^attempt * time.Second)`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240659
+      }
+    ],
+    "Si falla tras reintentos: `client.XAdd(ctx, &redis.XAddArgs{Stream: \"dlq\", Values: map})` (R15)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240683
+      }
+    ],
+    "Actualizar puntero con `client.XAck` tras procesamiento exitoso": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240705
+      }
+    ],
+    "Logs con `slog.InfoContext` / `slog.ErrorContext`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240730
+      }
+    ],
+    "Servicios: `api-gateway` (:8000), `profile-service` (:8001), `assistant-service` (:8002), `dispute-service` (:8003), `support-mock` (:8004), `event-consumer` (sin puerto)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240769
+      }
+    ],
+    "Todos: `build: ./services/<name>`, `env_file: .env`, red `creditprofile-net`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240794
+      }
+    ],
+    "`depends_on` con `service_healthy`: plataforma + servicios init": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240819
+      }
+    ],
+    "Healthchecks: `GET /health` para los 5 servicios HTTP": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240844
+      }
+    ],
+    "`event-consumer`: `depends_on: profile-service` (condición `service_healthy`) + `redis`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240869
+      }
+    ],
+    "Paquete interno `internal/metrics/metrics.go`: definir y registrar todos los Counters e Histogramas": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240904
+      }
+    ],
+    "Cada servicio importa `internal/metrics` y llama `metrics.Register()`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240936
+      }
+    ],
+    "Handler `/metrics` con `promhttp.Handler()` en cada servicio": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240961
+      }
+    ],
+    "Verificar scrape desde Prometheus UI (`http://localhost:9090`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899240986
+      }
+    ],
+    "Función `internal/telemetry/tracer.go`: `InitTracer(serviceName string) (func(), error)` — configura `TracerProvider` con `OTLPSpanExporter` gRPC a `OTEL_EXPORTER_OTLP_ENDPOINT`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241010
+      }
+    ],
+    "Cada servicio llama `InitTracer` al arrancar y hace `defer shutdown()`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241033
+      }
+    ],
+    "Instrumentar handlers con `otelhttp.NewHandler(router, \"service-name\")`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241059
+      }
+    ],
+    "Instrumentar `aws-sdk-go-v2` con `go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241084
+      }
+    ],
+    "Verificar trazas en Jaeger UI (`http://localhost:16686`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241109
+      }
+    ],
+    "Crear `observability/grafana/dashboards/credit-profile.json` con panels:": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241134
+      }
+    ],
+    "Provisionar dashboard automáticamente vía `observability/grafana/provisioning/dashboards/`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241158
+      }
+    ],
+    "Configurar `promtail-config.yml` para recolectar logs de Docker con label `job=creditprofile`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241184
+      }
+    ],
+    "Verificar en Grafana → Explore → Loki: `{job=\"creditprofile\"}`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241210
+      }
+    ],
+    "`make up`: `docker compose up -d --build`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241236
+      }
+    ],
+    "`make init`: ejecutar servicios init en orden (`dynamo-init` → `minio-init` → `dynamo-seed` → `ollama-pull`)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241267
+      }
+    ],
+    "`make down`: `docker compose down -v`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241293
+      }
+    ],
+    "`make logs`: `docker compose logs -f`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241318
+      }
+    ],
+    "`make test`: `go test ./tests/integration/... -v -timeout 120s`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241343
+      }
+    ],
+    "`make token USER_ID=user_001`: genera JWT de prueba con `go run scripts/gen-token/main.go user_001`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241369
+      }
+    ],
+    "`make tidy`: `go work sync && go mod tidy` en cada módulo": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241394
+      }
+    ],
+    "Requisitos: Docker Desktop ≥ 4.x, Go 1.23+, `make`, 8 GB RAM (por Ollama)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241420
+      }
+    ],
+    "Inicio rápido: `cp .env.example .env && make up && make init`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241446
+      }
+    ],
+    "Tabla de URLs: api-gateway, MinIO console, Grafana, Jaeger, Prometheus": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241475
+      }
+    ],
+    "Ejemplos `curl` para los 4 flujos con JWT generado por `make token`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241500
+      }
+    ],
+    "Nota: cambiar modelo → `OLLAMA_MODEL=mistral make up && make init`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241524
+      }
+    ],
+    "`TestMain`: verificar que todos los servicios respondan `/health`; generar JWT de prueba con `JWT_SECRET` del `.env`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241550
+      }
+    ],
+    "`TestGetProfile_OK` (R1, R5): `GET /user/user_001/credit-profile` → verificar `line_status`, `profile_level`, `primary_factors`, `bcra_cutoff_date`, `explanation` presentes": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241593
+      }
+    ],
+    "`TestGetProfile_Blocked` (R17): `GET /user/user_003/credit-profile` → HTTP 403": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241620
+      }
+    ],
+    "`TestGetProfile_CacheHit` (R1): segunda llamada a `user_001` es más rápida que la primera (campo `cached_explanation` en DynamoDB populado)": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241651
+      }
+    ],
+    "`TestAsk_InScope` (R6): `POST /user/user_001/ask` con `\"question\": \"¿qué significa estar en situación 2?\"` → respuesta con contenido": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241678
+      }
+    ],
+    "`TestAsk_OutOfScope` (R7): `POST /user/user_001/ask` con `\"question\": \"¿cómo cambio mi contraseña?\"` → `escalated: true` + `ticket_id`; verificar ticket en `support-mock`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241704
+      }
+    ],
+    "`TestDispute_OK` (R8): `POST /user/user_001/dispute` con `dispute_type: \"bcra\"` → respuesta con `steps`; verificar audit log en DynamoDB": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241733
+      }
+    ],
+    "`TestEventConsumer_PreCompute` (R15): publicar en Redis stream `credit-decisions`; esperar 3 s; verificar `cached_explanation` en DynamoDB para `user_002`": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241759
+      }
+    ],
+    "`TestGuardrail_Blocks` (R12): manipular `guardrail-rules.json` en MinIO con patrón que matchee la respuesta; verificar que la respuesta es el fallback": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241784
+      }
+    ],
+    "`TestRetryDate_Shown` (R9): `user_001` tiene accionable directo → `suggested_retry_date` no vacío en respuesta": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241810
+      }
+    ],
+    "`TestFallbackNarrative` (R10): insertar usuario con `decision_state: \"unknown_xyz\"` → responder con narrativa fallback, no 500": [
+      {
+        "executionId": "60b660f4-f981-4fa0-acf0-cd48f1f49e8c",
+        "chatSessionId": "sess_cd002e30-2b3d-4646-a1d9-2a9061e0e52d",
+        "timestamp": 1793899241836
+      }
+    ]
+  }
+}
