@@ -1,0 +1,54 @@
+{
+  "terms": {
+    "scoring": {
+      "term": "Scoring Crediticio",
+      "definition": "Puntaje numérico que representa tu capacidad de pago y comportamiento crediticio. Se calcula con base en tu historial de pagos, deudas actuales y otros factores financieros.",
+      "range": "Generalmente entre 1 y 999 puntos"
+    },
+    "bcra": {
+      "term": "BCRA",
+      "definition": "Banco Central de la República Argentina. Entidad que regula el sistema financiero y mantiene la Central de Deudores del Sistema Financiero.",
+      "url": "https://www.bcra.gob.ar"
+    },
+    "situacion": {
+      "term": "Situación BCRA",
+      "definition": "Clasificación de 1 a 6 que indica el estado de cumplimiento de tus obligaciones crediticias. 1 es normal, 6 es irrecuperable.",
+      "related": ["bcra", "central_deudores"]
+    },
+    "accionable": {
+      "term": "Accionable",
+      "definition": "Acción concreta que podés tomar para mejorar tu perfil crediticio o resolver situaciones que afectan tu línea de crédito.",
+      "examples": ["Pagar una deuda", "Actualizar documentación", "Reclamar un error"]
+    },
+    "linea_credito": {
+      "term": "Línea de Crédito",
+      "definition": "Monto máximo que una entidad financiera te autoriza para tomar prestado. Podés usarla total o parcialmente según tus necesidades.",
+      "synonyms": ["límite de crédito", "cupo"]
+    },
+    "central_deudores": {
+      "term": "Central de Deudores",
+      "definition": "Base de datos del BCRA que registra las deudas de personas y empresas con el sistema financiero argentino.",
+      "access": "Podés consultar tu situación gratuitamente en el sitio del BCRA"
+    },
+    "mora": {
+      "term": "Mora",
+      "definition": "Atraso en el pago de una obligación crediticia. Afecta negativamente tu historial y scoring.",
+      "impact": "Genera intereses adicionales y daña tu perfil"
+    },
+    "capacidad_pago": {
+      "term": "Capacidad de Pago",
+      "definition": "Evaluación de tus ingresos y gastos para determinar si podés afrontar una nueva deuda sin comprometer tu situación financiera.",
+      "factors": ["Ingresos mensuales", "Gastos fijos", "Deudas existentes", "Estabilidad laboral"]
+    },
+    "historial_crediticio": {
+      "term": "Historial Crediticio",
+      "definition": "Registro de tu comportamiento pasado con créditos: pagos puntuales, atrasos, deudas, refinanciaciones, etc.",
+      "importance": "Es el principal factor para evaluar solicitudes de crédito"
+    },
+    "refinanciacion": {
+      "term": "Refinanciación",
+      "definition": "Reestructuración de una deuda existente para modificar plazos o montos de cuotas, facilitando su pago.",
+      "note": "Puede afectar tu scoring temporalmente"
+    }
+  }
+}

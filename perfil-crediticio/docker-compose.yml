@@ -120,6 +120,59 @@ services:
     networks:
       - creditprofile-net
 
+  # Servicios de inicialización (ejecutar una vez)
+  dynamo-init:
+    build:
+      context: ./scripts/init-dynamo
+      dockerfile: Dockerfile
+    container_name: dynamo-init
+    env_file: .env
+    depends_on:
+      dynamodb-local:
+        condition: service_healthy
+    networks:
+      - creditprofile-net
+    restart: "no"
+
+  minio-init:
+    build:
+      context: ./scripts/init-minio
+      dockerfile: Dockerfile
+    container_name: minio-init
+    env_file: .env
+    depends_on:
+      minio:
+        condition: service_healthy
+    networks:
+      - creditprofile-net
+    restart: "no"
+
+  dynamo-seed:
+    build:
+      context: ./scripts/seed-dynamo
+      dockerfile: Dockerfile
+    container_name: dynamo-seed
+    env_file: .env
+    depends_on:
+      - dynamo-init
+    networks:
+      - creditprofile-net
+    restart: "no"
+
+  ollama-pull:
+    image: ollama/ollama
+    container_name: ollama-pull
+    environment:
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-llama3.2}
+    command: >
+      sh -c "ollama pull ${OLLAMA_MODEL:-llama3.2}"
+    depends_on:
+      ollama:
+        condition: service_healthy
+    networks:
+      - creditprofile-net
+    restart: "no"
+
 networks:
   creditprofile-net:
     driver: bridge

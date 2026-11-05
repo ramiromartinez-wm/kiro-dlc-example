@@ -1,0 +1,13 @@
+{
+  "dispute_type": "bcra",
+  "title": "Reclamo ante BCRA",
+  "steps": [
+    "Ingresá al portal del BCRA con tu CUIT/CUIL",
+    "Seleccioná 'Central de Deudores'",
+    "Verificá los datos reportados",
+    "Presentá el reclamo formal adjuntando documentación"
+  ],
+  "links": ["https://www.bcra.gob.ar/BCRAyVos/"],
+  "contact": "0800-333-2872",
+  "estimated_time": "30-60 días"
+}

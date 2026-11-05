@@ -1,0 +1,10 @@
+{
+  "approved": "grow",
+  "approved_low_limit": "grow",
+  "pending_docs": "unlock",
+  "pending_verification": "unlock",
+  "rejected_external": "rejected_a",
+  "rejected_bcra": "rejected_a",
+  "rejected_score": "rejected_b",
+  "rejected_debt": "rejected_b"
+}

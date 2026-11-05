@@ -1,0 +1,46 @@
+{
+  "situations": {
+    "1": {
+      "code": 1,
+      "name": "Normal",
+      "description": "Cumplimiento normal de las obligaciones. Sin atrasos o con atrasos de hasta 31 días.",
+      "severity": "low",
+      "impact": "positive"
+    },
+    "2": {
+      "code": 2,
+      "name": "Con seguimiento especial",
+      "description": "Atrasos entre 31 y 90 días en el cumplimiento de las obligaciones.",
+      "severity": "medium",
+      "impact": "negative"
+    },
+    "3": {
+      "code": 3,
+      "name": "Con problemas",
+      "description": "Atrasos entre 91 y 180 días. Dificultades financieras que comprometen la capacidad de pago.",
+      "severity": "high",
+      "impact": "negative"
+    },
+    "4": {
+      "code": 4,
+      "name": "Con alto riesgo de insolvencia",
+      "description": "Atrasos entre 181 y 365 días. Alto riesgo de pérdida.",
+      "severity": "high",
+      "impact": "negative"
+    },
+    "5": {
+      "code": 5,
+      "name": "Irrecuperable",
+      "description": "Atrasos mayores a 365 días. Obligación considerada incobrable.",
+      "severity": "critical",
+      "impact": "negative"
+    },
+    "6": {
+      "code": 6,
+      "name": "Irrecuperable por disposición técnica",
+      "description": "Préstamos con garantía preferida que quedan pendientes de cobro tras la ejecución de la garantía.",
+      "severity": "critical",
+      "impact": "negative"
+    }
+  }
+}

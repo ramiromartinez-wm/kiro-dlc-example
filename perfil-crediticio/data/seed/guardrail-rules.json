@@ -1,1 +1,16 @@
-{}
+{
+  "patterns": [
+    "garantiz",
+    "seguro que",
+    "vas a ser aprobad",
+    "100% aprobado",
+    "te aseguro",
+    "definitivamente aprobado",
+    "sin duda aprobado",
+    "aprobación garantizada",
+    "prometo",
+    "certeza de aprobación"
+  ],
+  "fallback_key": "narrative-3",
+  "description": "Reglas para detectar promesas absolutas o garantías no permitidas en respuestas del asistente"
+}

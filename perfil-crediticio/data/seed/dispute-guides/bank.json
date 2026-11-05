@@ -1,0 +1,16 @@
+{
+  "dispute_type": "bank",
+  "title": "Reclamo directo al banco",
+  "steps": [
+    "Contactá al servicio de atención al cliente del banco",
+    "Solicitá la revisión de tu situación crediticia",
+    "Presentá la documentación que respalde tu reclamo",
+    "Pedí el número de ticket o caso de seguimiento",
+    "Si no hay resolución en 15 días, escalá a la Superintendencia de Bancos"
+  ],
+  "links": [
+    "https://www.argentina.gob.ar/servicio/realizar-un-reclamo-ante-una-entidad-financiera"
+  ],
+  "contact": "Varía según entidad bancaria",
+  "estimated_time": "15-30 días"
+}
